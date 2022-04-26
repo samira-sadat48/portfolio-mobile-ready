@@ -48,5 +48,6 @@ table {
 /* End of Reset */
 
 :root {
+  --title-font: 'Playfair Display', serif;
   --text-font: 'Roboto', sans-serif;
 }
