@@ -91,5 +91,39 @@ header {
 
 /* Main */
 
+/*Give main a minimum size so there isn't space at the end of the website after the footer.*/
+
 /* Footer */
+
+footer {
+    background-color: #3D84A8;
+    display:grid;
+    grid-template-columns: 500px 500px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.contact-me {
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 10px;
+}
+
+.address {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contact-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+.footer-photo {
+    max-width: 500px;
+}
 
