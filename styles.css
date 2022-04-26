@@ -47,7 +47,49 @@ table {
 
 /* End of Reset */
 
+/*Whole Website Styles*/
 :root {
   --title-font: 'Playfair Display', serif;
   --text-font: 'Roboto', sans-serif;
 }
+
+body {
+    display:grid;
+    grid-template-columns: 1fr;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+/* Header */
+header {
+    background-color: #3D84A8;
+    display:grid;
+    grid-template-columns: 500px 500px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+    max-width: 300px;
+}
+
+/* Main */
+
+/* Footer */
+
